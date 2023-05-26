@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Juan Pablo Moris - Programador Freelance</title>
 </head>
@@ -136,8 +137,26 @@
     </section>
 
     <section id="contacto">
-      <h2>Contacto</h2>
-
+      <div class="titulo">
+        <h2>¡Contáctame!</h2>
+      </div>
+      <div class="foto">
+        <img src="img/conversacion-whatsapp.png" alt="Iniciar conversación en WhatsApp">
+      </div>
+      <div class="contenido">
+        <p>Por favor, completa tus datos para iniciar una conversación por WhatsApp.</p>        
+        <form id="formulario-whatsapp">
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="2" required></textarea>
+          </div>
+          <button type="submit" id="boton">Enviar</button>
+        </form>
+      </div>
     </section>
   </body>
 </html>

@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
     font-family: 'Archivo', sans-serif;
     margin: 0;
@@ -55,7 +65,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding: 100px 250px;
+    padding: 5% 10%;
     background-color: #f2f2f2;
   }
 
@@ -79,7 +89,7 @@ body {
   }
 
   #bio {
-    padding: 100px 250px;
+    padding: 5% 10%;
   }
   
   section {
@@ -164,4 +174,66 @@ body {
   color: #0B2545;
   text-decoration: none;
 
+}
+
+#contacto {
+  background: #0B2545;
+  color: #EEF4ED;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 5% 10%;
+}
+#contacto .titulo {
+  width: 100%;
+  text-align: center;
+}
+#contacto .contenido {
+  width: 50%;
+  padding: 0 0 20px 0;
+}
+
+#contacto .foto {
+  width: 50%;
+  padding: 20px;
+}
+#contacto .foto img {
+  max-width: 80%;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Archivo', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #8da9c4;
+  color: #0B2545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #073d78;
+  color: #EEF4ED;
 }
