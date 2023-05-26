@@ -148,13 +148,16 @@ body {
   }
 
   .proyectos-head {
-    width: 99%;
-    border-radius: 0 0 8px 8px;
+    width: 100%;
     background-color: #0924429c;
-    padding: 1px 1px 1px 1px;
+
   }
   .proyectos-head h4 {
     font-size: 1.2rem;
+    line-height: 0.5rem;
+  }
+  .proyectos-head p {
+    line-height: 0.5rem;
   }
 
   #gran-cerdo {
@@ -164,7 +167,13 @@ body {
   #sistema-gestion {
     background-image: url('img/proyecto-sistema-gestion-veterinario.jpg');
   }
+
+  #sistema-gestion-articulos {
+    background-image: url('img/proyecto-sistema-gestion-articulos.jpg');
+  }
+
   .proyectos-link {
+    text-decoration: none;
     background: #EEF4ED;
     border-radius: 10px;
     padding: 15px 10px;
